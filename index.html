@@ -21,6 +21,10 @@
     <!-- github calendar css -->
     <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
 />
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
@@ -191,8 +195,11 @@
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-                        <p>My GitHub contribution graph calendar. <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
+                        <p>My GitHub contribution graph calendar. 
+                        <div class="calendar">
+                          <!-- Loading stuff -->
+                              Loading the data just for you.
+                        </div>
                         <div id="github-graph" class="github-graph">
 
                         </div><!--//github-graph-->
@@ -223,15 +230,23 @@
                 
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
+                        <h2 class="heading">Skills & Tools</h2>
                         <div class="content">
                             <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+                                My love for java has no bounderies. I do other programming languages for fun...</p>
                             
                             <div class="skillset">
                                
                                 <div class="item">
                                     <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">Android Studio<span class="level-label">Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
                                         </div>                                      
@@ -245,6 +260,7 @@
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
+					
                                 
                                 <div class="item">
                                     <h3 class="level-title">HTML5, CSS3 &amp; LESS<span class="level-label">Expert</span></h3>
@@ -253,9 +269,25 @@
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">Foundation<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
                                 
                                 <div class="item">
                                     <h3 class="level-title">Penetration & Testing<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">Khali Linux<span class="level-label">Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>                                      
@@ -395,6 +427,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
